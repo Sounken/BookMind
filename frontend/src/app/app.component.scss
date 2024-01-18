@@ -1,0 +1,20 @@
+.top-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+  &::after {
+    content: '';
+    display: block;
+    width: 336px;
+    height: 1px;
+    margin: 2% auto 0;
+    background-color: #ffffff;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+}
